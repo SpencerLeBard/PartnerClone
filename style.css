@@ -4,12 +4,14 @@ body {
     flex-direction: column; }
 
 header{
-  } 
+  min-height: 10vh;
+} 
 
 main{
   flex-grow: 1;} 
 
 footer{
+min-height: 20vh;
 }
 
 .hero-image{
@@ -20,4 +22,11 @@ footer{
 }
 .text-shadow{
   text-shadow: 1px 1px black;
+}
+
+.hero-image-2{
+  background-image: url("space.jpg") ;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
 }
