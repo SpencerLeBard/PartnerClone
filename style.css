@@ -30,3 +30,9 @@ min-height: 20vh;
   background-size: cover;
   background-position: center;
 }
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
